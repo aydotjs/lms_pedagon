@@ -1,117 +1,106 @@
-# Language4All
+### Pedagon LMS
 
-This project was built using [React](https://reactjs.org/). Language4All is a language learning platform with multiple user roles (student, teacher, and admin) and features for online course management, scheduling, payments, and more.
+Pedagon LMS is a modern Learning Management System (LMS) built with React. It provides a platform for students, teachers, and admins to learn, teach, and manage coding skills including Frontend Development, Backend Development, Cloud Engineering, and more.
 
-## Available Scripts
+The platform supports course management, scheduling, payments, job opportunities, and online collaboration.
+
+Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+npm start
 
-Runs the app in development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in development mode.
+Open http://localhost:3000 to view it in your browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The page reloads on edits, and lint errors are shown in the console.
 
-### `npm test`
+npm test
 
-Launches the test runner in interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode.
+See the testing guide.
 
-### `npm run build`
+npm run build
 
-Builds the app for production in the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production into the build folder.
+It optimizes React for performance with minification and hashed filenames.
 
-The build is minified, and filenames include hashes.\
-Your app is ready to be deployed!
+Your app is ready to deploy!
+See the deployment guide for more.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run eject
 
-### `npm run eject`
+Note: this is a one-way operation.
+Once you eject, you gain full control over configs (Webpack, Babel, ESLint, etc.), but you can’t go back.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Features of Pedagon LMS
+General Features:
 
-If you aren't satisfied with the default build tool and configuration, you can `eject` at any time. This command removes the single build dependency from your project.
+User Registration & Login Forms
+Separate sign-up and login for students, teachers, and admins.
 
-Instead, it copies all the configuration files and transitive dependencies (webpack, Babel, ESLint, etc.) into your project so you have full control over them.
+Personalized Dashboards
+Different dashboards for each role: admin, teacher, and student.
 
-## Learn More
+Course Management
+Display course details (Frontend, Backend, Cloud Engineering, etc.), teacher profiles, and schedules.
 
-You can learn more in the [React documentation](https://reactjs.org/).
+Payment Gateway Integration
+Support for PayPal, credit/debit cards, crypto payments, etc.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Notifications
+Email/SMS alerts, reminders, and updates.
 
-## Features of Language4All
+Video Conferencing Integration
+Connect with Zoom or other platforms for live coding classes.
 
-### General Features:
+Calendar System
+Scheduling system for teachers and students to track classes, projects, and deadlines.
 
-- **User Registration & Login Forms**  
-  Separate registration and login forms for students, teachers, and admins.
-  
-- **Dashboard Interface**  
-  A specific dashboard for each user type: admin, teacher, and student.
+Authentication & Data Management:
 
-- **Course Display**  
-  Display course details, teacher information, and available schedules.
+User Authentication & Session Management
+Secure sessions and role-based access control.
 
-- **Payment Gateway Integration**  
-  Integration with Bitcoin, PayPal, credit/debit cards, etc.
+Database Setup
+Store user details (students, teachers, courses, projects, feedback).
 
-- **Notifications**  
-  Email alerts, reminders, and notifications to keep users informed.
+Admin Dashboard
+Manage teachers, students, coding courses, job postings, and reports.
 
-- **Video Conferencing Integration**  
-  Integration with platforms like Zoom for online classes.
+Payment Gateway Integration
+Smooth handling of subscriptions and one-time payments.
 
-- **Calendar System**  
-  A scheduling system for teachers and students to track classes and availability.
+Feedback & Support
+Students and teachers can submit reviews, complaints, and progress reports.
 
-### Authentication & Data Management:
+Teacher Availability Management
+Teachers manage their availability for live classes.
 
-- **User Authentication & Session Management**  
-  Secure login sessions and management of user access levels.
+Secure Data Storage
+Store student projects, teacher qualifications, and course resources securely.
 
-- **Database Setup**  
-  Stores user information such as students, teachers, courses, complaints, and feedback.
+Additional Features:
 
-- **Admin Dashboard**  
-  Admin management for teacher and student data, class schedules, student progress, and feedback.
+List of Coding Tracks
+Comprehensive tracks: Frontend (React, Vue, Angular), Backend (Node.js, Python, Java), Cloud Engineering (AWS, Azure, GCP), and more.
 
-- **Third-Party Payment Gateway Integration**  
-  Seamless integration with third-party payment gateways to handle transactions.
+Free Trial Classes
+Students can access trial coding sessions before enrolling.
 
-- **Complaint and Feedback Handling**  
-  A system to manage complaints and feedback from students and teachers.
+Flexible Payment Plans
+Weekly, monthly, or per-course payment options.
 
-- **Teacher Availability Management**  
-  A system to manage and display teacher availability for scheduling.
+Job Vacancies & Internships
+Job and internship opportunities for students after course completion.
 
-- **Secure Data Storage**  
-  Secure storage for teacher qualifications, student assignments, and progress data.
+Tutor Applications
+Developers/teachers can apply to teach without creating an account first.
 
-### Additional Features:
+Deployment
 
-- **List of Languages**  
-  A comprehensive list of available languages worldwide.
+Follow the Create React App Deployment Guide for detailed deployment instructions.
 
-- **Free Trial Option**  
-  A 15-minute free trial for students before applying for a tutor.
+npm run build fails to minify
 
-- **Flexible Payment Methods**  
-  Payment options include weekly, daily, and monthly methods.
-
-- **Job Vacancies for Teachers/Tutors**  
-  Display job vacancies for teachers and tutors within the platform.
-
-- **Open Application for Tutors**  
-  Tutors can apply for teaching roles without needing to create an account or log in. The application form is open to all.
-
-## Deployment
-
-This section explains how to deploy the Language4All app. Follow the steps in [Create React App Deployment](https://facebook.github.io/create-react-app/docs/deployment) for more details.
-
-## `npm run build` fails to minify
-
-For troubleshooting, refer to the [Create React App Documentation](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) if your build process fails to minify.
+If your build fails to minify, check the troubleshooting guide.
